@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(176, 194, 199),rgb(191, 227, 173));
+    height:100vh;
+}
+
+
+
+#nav{
+    margin:20px;
+    width:100%;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav img{
+    width:60px;
+    margin:0 5px;
+}
+h1 strong{
+    color:navy;
+    font-weight: bold;
+}
+
+
+.cont{
+    width:65%;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+    height:70vh;
+    border-radius: 15px;
+    box-shadow: 8px 7px 34px rgba(0,0,0,0.3);
+    padding: 2%;
+    overflow-y: auto;
+    text-align: center;
+
+    
+
+}
+
+.cont .msg{
+    
+    padding:10px;
+    border: 1px solid rgb(147, 124, 124);
+    
+    border-radius: 17px;
+    margin-bottom: 5px;
+    
+    
+
+}
+
+.msg span{
+    color: rgba(0, 0, 0, 0.708);
+    font-style: italic;
+    font-weight: 100;
+    display: block;
+}
+
+.cont .msg p{
+    display: block;
+    margin:auto;
+    font-weight: bold;
+}
+
+
+
+.left{
+    background-color: rgba(111, 155, 209, 0.858);
+    float: left;
+    clear: both;
+    max-width: 250px;
+    word-wrap: normal;
+    text-align: left;
+    
+
+}
+
+.right{
+    background-color: rgba(83, 240, 101, 0.607);
+    float : right;
+    clear : both;
+    max-width: 250px;
+    word-wrap: normal;
+    text-align: right;
+    
+
+}
+
+.feedback-msg{
+    
+    float:inline-start;
+    clear: both;
+
+}
+
+.feedback-msg .feedback{
+    display: block;
+    text-align: center;
+}
+
+
+.send{
+    width:65%;
+    display: block;
+    margin:4px auto;
+    height:10vh;
+    text-align: center;
+    padding:8px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 8px 7px 34px rgba(0,0,0,0.3);
+    
+
+}
+.send input{
+    width:90%;
+    height: 33px;
+    padding: 1%;
+    border-radius: 12px;
+    border: 0.5px solid gainsboro;
+    
+
+}
+.send button{
+    padding: 8px;
+    margin-top: auto;
+    height: 35px;
+    border-radius: 12px;
+    border: 0.5px solid rgb(57, 8, 8);
+    color:rgb(35, 31, 31);
+}
+
+.clients-total{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.name-input {
+    
+    color: rgb(78, 15, 52);
+    background-color: rgb(53, 202, 153);
+    margin: 1px;
+    padding:3px;
+    font-weight:bolder;
+    font-size: large;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 8px 7px 34px rgba(0,0,0,0.3);
+    
+}
+.name{
+    margin: 2px;
+    text-align: center;
+    display: block;
+    
+    
+    
+}
+
